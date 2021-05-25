@@ -1,0 +1,9 @@
+C:\Users\7vlad\source\repos\NewsProject\DAL\bin\Release\netcoreapp3.1\DAL.deps.json
+C:\Users\7vlad\source\repos\NewsProject\DAL\bin\Release\netcoreapp3.1\DAL.dll
+C:\Users\7vlad\source\repos\NewsProject\DAL\bin\Release\netcoreapp3.1\DAL.pdb
+C:\Users\7vlad\source\repos\NewsProject\DAL\obj\Release\netcoreapp3.1\DAL.csprojAssemblyReference.cache
+C:\Users\7vlad\source\repos\NewsProject\DAL\obj\Release\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\Users\7vlad\source\repos\NewsProject\DAL\obj\Release\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\Users\7vlad\source\repos\NewsProject\DAL\obj\Release\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+C:\Users\7vlad\source\repos\NewsProject\DAL\obj\Release\netcoreapp3.1\DAL.dll
+C:\Users\7vlad\source\repos\NewsProject\DAL\obj\Release\netcoreapp3.1\DAL.pdb

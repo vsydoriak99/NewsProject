@@ -1,0 +1,48 @@
+﻿<Window x:Class="NewsProject.ClientWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NewsProject.ClientWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <DataTemplate x:Key="Details" DataType="">
+            
+        </DataTemplate>
+        
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="0.8*" />
+        </Grid.ColumnDefinitions>
+        <TabControl Grid.Column="0">
+            <TabItem Header="Recomended">
+                <Grid Background="#FFE5E5E5" >
+                    <ListBox  ItemsSource="{Binding ListNews}" >
+                        <ListBox.ItemTemplate >
+                            <DataTemplate>
+                                <StackPanel Orientation="Vertical" >
+                                    <TextBlock    Text="{Binding Path= title }" />
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="{Binding Path=dateOfPublication}"/>
+                                        <TextBlock Text="{Binding Path=likesCount}"/>
+                                    </StackPanel>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="All news">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+        </TabControl>
+        <Frame />
+    </Grid>
+
+
+
+</Window>

@@ -1,0 +1,53 @@
+﻿<Page x:Class="NewsProject.ClientWPF.DetailNewsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NewsProject.ClientWPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="597.656" d:DesignWidth="577.344">
+    <Grid>
+        <Grid.RowDefinitions>
+             <RowDefinition  Height="*" />
+                
+                <RowDefinition  Height="*" />
+            <RowDefinition  Height="*" />
+            <RowDefinition  Height="*" />
+            <RowDefinition  Height="10*" />
+            <RowDefinition  Height="*" />
+            <RowDefinition  Height="2*" />
+        </Grid.RowDefinitions>
+        <Button Width="100" HorizontalAlignment="Left" Grid.Row="0"  Content="Back" Click="Button_Click" />
+        <StackPanel  Orientation="Horizontal" Grid.Row="1" >
+            <TextBlock Text="Title : "></TextBlock>
+            <TextBlock Text="{Binding CurrentNews.Title}"></TextBlock>
+        </StackPanel>
+        
+        <StackPanel  Orientation="Horizontal" Grid.Row="2">
+            <TextBlock Text="URL : "></TextBlock>
+            <TextBlock Text="{Binding CurrentNews.Url}"></TextBlock>
+        </StackPanel>
+        <TextBlock Grid.Row="3" Text="{Binding CurrentNews.DatePublication}" />
+        <TextBlock Grid.Row="4" TextWrapping="Wrap" Text="{Binding CurrentNews.Description}" />
+        <StackPanel Grid.Row="5" Orientation="Horizontal">
+            <TextBlock>Keywords : </TextBlock>
+            <TextBlock Text="{Binding CurrentNews.KeywordStr}"></TextBlock>
+        </StackPanel>
+
+        <Button Grid.Row="6"   Command="{Binding LikeCommand}">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding CurrentNews.UserLikesThis}" Value="True">
+                            <Setter Property="Content" Value="Unlike" />
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding CurrentNews.UserLikesThis}" Value="False">
+                            <Setter Property="Content" Value="Like" />
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+    </Grid>
+</Page>
+

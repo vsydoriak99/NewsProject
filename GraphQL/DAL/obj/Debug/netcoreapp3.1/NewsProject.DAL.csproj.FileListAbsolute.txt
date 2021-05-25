@@ -1,0 +1,17 @@
+C:\Users\7vlad\Desktop\Uni\Iнтеграція\NewsProject\NewsProject\DAL\bin\Debug\netcoreapp3.1\NewsProject.DAL.deps.json
+C:\Users\7vlad\Desktop\Uni\Iнтеграція\NewsProject\NewsProject\DAL\bin\Debug\netcoreapp3.1\NewsProject.DAL.dll
+C:\Users\7vlad\Desktop\Uni\Iнтеграція\NewsProject\NewsProject\DAL\bin\Debug\netcoreapp3.1\NewsProject.DAL.pdb
+C:\Users\7vlad\Desktop\Uni\Iнтеграція\NewsProject\NewsProject\DAL\obj\Debug\netcoreapp3.1\NewsProject.DAL.AssemblyInfoInputs.cache
+C:\Users\7vlad\Desktop\Uni\Iнтеграція\NewsProject\NewsProject\DAL\obj\Debug\netcoreapp3.1\NewsProject.DAL.AssemblyInfo.cs
+C:\Users\7vlad\Desktop\Uni\Iнтеграція\NewsProject\NewsProject\DAL\obj\Debug\netcoreapp3.1\NewsProject.DAL.csproj.CoreCompileInputs.cache
+C:\Users\7vlad\Desktop\Uni\Iнтеграція\NewsProject\NewsProject\DAL\obj\Debug\netcoreapp3.1\NewsProject.DAL.dll
+C:\Users\7vlad\Desktop\Uni\Iнтеграція\NewsProject\NewsProject\DAL\obj\Debug\netcoreapp3.1\NewsProject.DAL.pdb
+C:\Users\7vlad\Desktop\Uni\Iнтеграція\NewsProject_corected_ver\GraphQL\DAL\bin\Debug\netcoreapp3.1\NewsProject.DAL.deps.json
+C:\Users\7vlad\Desktop\Uni\Iнтеграція\NewsProject_corected_ver\GraphQL\DAL\bin\Debug\netcoreapp3.1\NewsProject.DAL.dll
+C:\Users\7vlad\Desktop\Uni\Iнтеграція\NewsProject_corected_ver\GraphQL\DAL\bin\Debug\netcoreapp3.1\NewsProject.DAL.pdb
+C:\Users\7vlad\Desktop\Uni\Iнтеграція\NewsProject_corected_ver\GraphQL\DAL\obj\Debug\netcoreapp3.1\NewsProject.DAL.csprojAssemblyReference.cache
+C:\Users\7vlad\Desktop\Uni\Iнтеграція\NewsProject_corected_ver\GraphQL\DAL\obj\Debug\netcoreapp3.1\NewsProject.DAL.AssemblyInfoInputs.cache
+C:\Users\7vlad\Desktop\Uni\Iнтеграція\NewsProject_corected_ver\GraphQL\DAL\obj\Debug\netcoreapp3.1\NewsProject.DAL.AssemblyInfo.cs
+C:\Users\7vlad\Desktop\Uni\Iнтеграція\NewsProject_corected_ver\GraphQL\DAL\obj\Debug\netcoreapp3.1\NewsProject.DAL.csproj.CoreCompileInputs.cache
+C:\Users\7vlad\Desktop\Uni\Iнтеграція\NewsProject_corected_ver\GraphQL\DAL\obj\Debug\netcoreapp3.1\NewsProject.DAL.dll
+C:\Users\7vlad\Desktop\Uni\Iнтеграція\NewsProject_corected_ver\GraphQL\DAL\obj\Debug\netcoreapp3.1\NewsProject.DAL.pdb

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsProject.DAL", "DAL\NewsProject.DAL.csproj", "{8C328D66-C63D-4EB2-82F4-636EBF22B383}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsProject.GraphqlAPI", "GraphQLAPI\NewsProject.GraphqlAPI.csproj", "{AC3BD22D-9213-4439-884F-2A2AAF6125AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C328D66-C63D-4EB2-82F4-636EBF22B383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C328D66-C63D-4EB2-82F4-636EBF22B383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C328D66-C63D-4EB2-82F4-636EBF22B383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C328D66-C63D-4EB2-82F4-636EBF22B383}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC3BD22D-9213-4439-884F-2A2AAF6125AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3BD22D-9213-4439-884F-2A2AAF6125AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3BD22D-9213-4439-884F-2A2AAF6125AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3BD22D-9213-4439-884F-2A2AAF6125AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49D8AA23-ED31-46B1-8BB1-62145CA2CCE5}
+	EndGlobalSection
+EndGlobal
